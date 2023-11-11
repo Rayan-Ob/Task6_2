@@ -1,0 +1,68 @@
+
+#carouselExampleCaptions {
+    margin: 0;
+    margin-top: 60px;
+  }
+  
+  .ro-position {
+    position: relative;
+  }
+  
+  .ro-right-cap {
+    position: absolute;
+    display: inline-block;
+    z-index: 5;
+    width: 40%;
+    left: 50%;
+    top: 20%;
+  }
+  .big-p {
+    font-size: 4.5rem;
+    font-weight: bolder;
+  }
+  
+  .ro-carousel-btn {
+    padding: 12px 50px;
+    background-color: transparent;
+    color: white;
+    border-radius: 25px;
+    border: 3px solid white;
+    margin-top: 10px;
+    font-size: 20px;
+  }
+  
+  .ro-right-cap2 {
+    position: absolute;
+    top: 15%;
+    z-index: 5;
+    width: 40%;
+    left: 5%;
+    color: #252525;
+  }
+  
+  .big-p {
+    font-size: 4.5rem;
+    font-weight: bolder;
+  }
+  
+  .ro-carousel-btn {
+    padding: 12px 50px;
+    background-color: transparent;
+    color: white;
+    border-radius: 25px;
+    border: 3px solid white;
+    margin-top: 10px;
+    font-size: 20px;
+  }
+  
+  .ro-right-cap2 .ro-carousel-btn {
+    color: #252525;
+    border: 3px solid #252525;
+    font-weight: 600;
+  }
+  
+  .ro-carousel-btn:hover {
+    background-color: red;
+    transition: 1s;
+    border-color: red;
+  }

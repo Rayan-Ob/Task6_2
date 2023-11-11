@@ -1,0 +1,63 @@
+footer{
+    background-image: url("./images/Background.jpg");
+  }
+  .btn-email{
+    max-width: 400px;
+    width: 100%;
+    position: relative;
+    margin: 40px auto;
+  
+  }
+  footer input{
+    max-width: 400px;
+    width: 100%;
+    border-radius: 30px;
+    padding: 10px;
+  }
+  .btn-email button{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    right: 5px;
+    top: 6px;
+    z-index: 60;
+    border-radius: 50%;
+  }
+  .btn-email button:hover{
+    background-color: red;
+    border-color: red;
+    transition-duration: 0.8s;
+  }
+  
+  .ro-footer-ul{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+  }
+  .ro-footer-ul li{
+    margin: 5px 15px;
+    list-style: none;
+    
+  }
+  .ro-footer-ul a{
+    color: white;
+    text-decoration: none;
+  
+  }
+  .ro-footer-img{
+    height: 20px;
+    width: 30px;
+   
+    object-fit: fill;
+  }
+  .div-footer{
+    padding: 10px;
+    background-color: #ccc;
+  }
+  .div-footer p{
+    margin: 0;
+    padding: 0;
+  }

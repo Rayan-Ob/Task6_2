@@ -1,0 +1,63 @@
+.navbar {
+    position: fixed;
+    background-color: white;
+  
+    z-index: 10;
+    top: 0;
+  }
+  .ro-nav-list li {
+    list-style: none;
+  }
+  
+  .ro-nav-list li a {
+    text-decoration: none;
+    color: #252525;
+  }
+  .ro-nav-list li a:hover{
+    color: #eb0028;
+  }
+  
+  .ro-hr {
+    display: inline-block;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 15px;
+    font-weight: bolder;
+  }
+  
+  .navbar-nav .nav-link.active,
+  .navbar-nav .nav-link.show,
+  .nav-link a {
+    color: #252525;
+    font-weight: bold;
+  }
+  
+  .ro-nav-item .nav-item {
+    margin: 1px 0.3rem;
+  
+  }
+  
+  .ro-bg-li:hover {
+    background-color: rgb(239, 80, 44);
+    border-radius: 5px;
+    color: white;
+  }
+  
+  .ro-drop {
+    max-height: 200px;
+    overflow-y: scroll;
+    margin-top: -20px;
+    border-radius: 0;
+  }
+  
+  .ro-drop img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  
+  .ro-flag {
+    width: 25px;
+    height: 25px;
+    margin-right: 8px;
+  }
+  

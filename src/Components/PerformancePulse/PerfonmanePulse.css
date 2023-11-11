@@ -1,0 +1,87 @@
+.ro-height {
+    height: 900px;
+    overflow-y: hidden;
+  }
+  
+  .pulse-1,
+  .pulse-2,
+  .pulse-3,
+  .pulse-4 {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: black;
+    animation: animat 2s linear 2s infinite;
+    z-index: 3;
+    margin-right: 10px;
+    position: absolute;
+  }
+  
+  .h-hr {
+    position: absolute;
+    width: 1px;
+    height: 120px;
+    background-color: #252525;
+    z-index: 8;
+    text-align: center;
+  }
+  
+  .h-hr-2 {
+    height: 200px;
+  }
+  
+  .ro-mobile-point {
+    position: absolute;
+    width: 100%;
+    bottom: 39.5%;
+  }
+  
+  .ro-mobile-point .pulse-4 {
+    right: 12%;
+  }
+  
+  .ro-mobile-point .pulse-3 {
+    right: 40%;
+  }
+  
+  .ro-mobile-point .pulse-2 {
+    left: 15%;
+  }
+  .ro-mobile-point .pulse-1 {
+    left: 36.5%;
+  }
+  
+  @keyframes animat {
+  
+    0% {
+      box-shadow: 0 0 0 0 rgba(255, 0, 0, 0.7), 0 0 0 0 rgba(255, 0, 0, 0.7);
+  
+    }
+  
+    40% {
+      box-shadow: 0 0 0 10px rgba(255, 0, 0, 0), 0 0 0 0 rgba(255, 0, 0, 0.7);
+    }
+  
+    70% {
+      box-shadow: 0 0 0 10px rgba(255, 0, 0, 0), 0 0 0 10px rgba(255, 0, 0, 0.5);
+    }
+  
+    100% {
+      box-shadow: 0 0 0 0 rgba(255, 0, 0, 0), 0 0 0 10px rgba(255, 0, 0, 0.5);
+    }
+  
+  }
+  
+  
+  .ro-margin-top {
+    margin-top: 140px;
+    width: 200px;
+    text-align: center;
+    transform: translateX(-50%);
+  }
+  
+  .ro-margin-top-2 {
+    margin-top: 220px;
+  
+  }
+  

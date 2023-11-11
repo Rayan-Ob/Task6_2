@@ -1,0 +1,18 @@
+.ro-grid2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  .ro-box {
+    display: flex;
+    gap: 25px;
+    margin: 25px 5px;
+    margin: auto;
+    margin-bottom: 25px;
+  }
+  
+  .first-child img,
+  .third-child img {
+    width: 100px;
+    object-fit: contain;
+  }

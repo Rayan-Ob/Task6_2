@@ -1,0 +1,53 @@
+
+
+
+.re-customer {
+    background-image: url("./images/Background.jpg");
+  }
+  .ro-accordion{
+    display: flex;
+    justify-content: space-between;
+  }
+  .accordion{
+    width: 500px; 
+    margin: auto;
+  }
+
+  .accordion-button::after {
+    background-image: none;
+    content: "+";
+      position: absolute;
+      top: 10%;
+      display: block;
+      width: 15px;
+      height: 15px;
+      font-size: 30px;
+      left: 94%;
+  }
+  button.accordion-button.collapsed{
+    font-size: 20px;
+  }
+  .accordion-button:not(.collapsed)::after {
+    background-image: none;
+    content: "-";
+      position: absolute;
+      top: 75%;
+      display: block;
+      font-weight: bolder;
+      height: 15px;
+      width: 15px;
+      font-size: 30px;
+      left: 94%;
+  
+  }
+  
+  .accordion .accordion-item,.accordion-item h2 button{
+    background-color: transparent;
+    color: white;
+    border: none;
+    width: 100%;
+    display: block;
+  }
+  .accordion-item h2 button {
+    border: none;
+  }

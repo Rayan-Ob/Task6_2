@@ -1,0 +1,19 @@
+.ro-bg-blue-btn {
+    padding: 10px 15px;
+    text-transform: uppercase;
+    border-radius: 30px;
+    background-color: #136ad5;
+    font-size: 12px;
+}
+
+.ro-bg-white-btn {
+    padding: 10px 15px;
+    text-transform: uppercase;
+    border-radius: 30px;
+    background-color: white;
+    font-size: 12px;
+    color: #136ad5;
+}
+.ro-mr{
+    margin-right: 10px;
+}
