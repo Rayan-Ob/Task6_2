@@ -1,11 +1,12 @@
 .ro-swiper-img{
-    height: 250px;
-    object-fit: contain;
-    margin: 20px 0;
+    height: 260px;
+    object-fit: fill;
   }
    .ro-card-body{
     background-color: #eee;
     font-size: 18px;
+    width: 100%;
+    font-weight: 600;
   }
   
   .card-title{
@@ -16,4 +17,8 @@
   .slide-container{
     max-width: 1200px;
     width: 100%;
+    margin: auto;
+  }
+  .cardArrival{
+    margin: 20px !important;
   }

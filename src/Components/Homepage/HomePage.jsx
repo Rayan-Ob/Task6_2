@@ -7,6 +7,7 @@ import SeeCustomers from '../SeeCustomers/SeeCustomers'
 import "./Home.css"
 import SlideArrival from '../SlideArrival/SlideArrival'
 import Carousel from '../slides/slides'
+import ArrivalSlider from '../ArrivalSlider/ArrivalSlider'
 
 function HomePage() {
   return (
@@ -16,7 +17,7 @@ function HomePage() {
         <EssentialDifferent/>
         <PerfonmanePulse/>
         <Qualities/>
-        {/* <SlideArrival/> */}
+       <ArrivalSlider/>
         <Carousel />
 
         <SeeCustomers/>
