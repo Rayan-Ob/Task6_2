@@ -5,7 +5,7 @@ function CoursesboxProps(props) {
   return (
     <div>
 
-<div className="box d-flex">
+<div className="box d-flex my-3">
           <div className="ro-icon mx-3">
             <i className={icon}></i>
           </div>

@@ -22,9 +22,6 @@ function Courses() {
         <CoursesboxProps icon="fa-solid fa-camera fs-3" name="photography" number="6.491 courses" />
         <CoursesboxProps icon="fa-solid fa-snowflake fs-3" name="animation" number="2.491 courses" />
 
-      
-
-
       </div>
 
     

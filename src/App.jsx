@@ -15,33 +15,19 @@ import { Routes } from 'react-router';
 function App() {
   return (
     <div className="App">
-       {/* carousel */}
+      <Navbar />
+      <Routes>
 
-       <Navbar/>
-       <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/courses" element={<Courses />}></Route>
+        <Route path='/about' element={<About />}></Route>
 
-      <Route path="/" element={<HomePage/>}/>
-      <Route path="/courses" element={<Courses/>}></Route>
-      <Route path='/about' element={<About/>}></Route>
+      </Routes>
 
-       </Routes>
-      
-      <Footer/>
-
-      
-      
-
-
-
- 
-      
-
-
-
-
+      <Footer />
 
     </div>
-    
+
   );
 }
 
