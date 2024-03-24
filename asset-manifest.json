@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Task6_2/static/css/main.004ec3bd.css",
+    "main.js": "/Task6_2/static/js/main.f5740fe0.js",
+    "static/js/787.28cb0dcd.chunk.js": "/Task6_2/static/js/787.28cb0dcd.chunk.js",
+    "static/media/centerImageMobile.png": "/Task6_2/static/media/centerImageMobile.b1d6a535d3ecbe82aceb.png",
+    "static/media/bg-1.png": "/Task6_2/static/media/bg-1.29d4def7cbd1fe55d064.png",
+    "static/media/pulse.png": "/Task6_2/static/media/pulse.5368c9f5b85403d75c4a.png",
+    "static/media/phono-slider-1.jpg": "/Task6_2/static/media/phono-slider-1.6559f7688d75815e177f.jpg",
+    "static/media/phono-slider-2.jpg": "/Task6_2/static/media/phono-slider-2.1a3801c83798892bf54e.jpg",
+    "static/media/phono-slider-3.jpg": "/Task6_2/static/media/phono-slider-3.255508db48aefa1b13ca.jpg",
+    "static/media/Background.jpg": "/Task6_2/static/media/Background.dcfaf499bba4d37c1766.jpg",
+    "static/media/revicons.eot": "/Task6_2/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/Task6_2/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/Task6_2/static/media/revicons.e8746a624ed098489406.woff",
+    "static/media/paypal.jfif": "/Task6_2/static/media/paypal.6505734de1c825e84dfc.jfif",
+    "index.html": "/Task6_2/index.html",
+    "main.004ec3bd.css.map": "/Task6_2/static/css/main.004ec3bd.css.map",
+    "main.f5740fe0.js.map": "/Task6_2/static/js/main.f5740fe0.js.map",
+    "787.28cb0dcd.chunk.js.map": "/Task6_2/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.004ec3bd.css",
+    "static/js/main.f5740fe0.js"
+  ]
+}
