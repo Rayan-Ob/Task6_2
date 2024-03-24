@@ -10,7 +10,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <BrowserRouter basename='/Task6_2/'> */}
-    <HashRouter>
+    <HashRouter basename='/Task6_2'>
     <App />
     {/* </BrowserRouter> */}
     </HashRouter>
