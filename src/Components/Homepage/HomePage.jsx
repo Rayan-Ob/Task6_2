@@ -5,7 +5,6 @@ import PerfonmanePulse from '../PerformancePulse/PerfonmanePulse'
 import Qualities from '../Qualities/Qualities'
 import SeeCustomers from '../SeeCustomers/SeeCustomers'
 import "./Home.css"
-// import SlideArrival from '../SlideArrival/SlideArrival'
 import ArrivalSlider from '../ArrivalSlider/ArrivalSlider'
 
 function HomePage() {
@@ -16,9 +15,7 @@ function HomePage() {
         <EssentialDifferent/>
         <PerfonmanePulse/>
         <Qualities/>
-       <ArrivalSlider/>
-        {/* <Carousel /> */}
-        
+       <ArrivalSlider/>        
         <SeeCustomers/>
          
          
