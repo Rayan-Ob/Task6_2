@@ -17,10 +17,13 @@ function App() {
     <div className="App">
       <Navbar />
       <Routes>
-
-        <Route path="/" element={<HomePage />} ></Route>
+        <Route  path="/" element={<HomePage />} ></Route>
         <Route path="/courses" element={<Courses />}></Route>
         <Route path='/about' element={<About />}></Route>
+        <Route path='*'>
+          <Redirect to = "/"></Redirect>
+
+        </Route>
 
       </Routes>
 
