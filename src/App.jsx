@@ -5,8 +5,10 @@ import Courses from './Components/CoursesPage/Courses';
 import Footer from './Components/Footer/Footer';
 import HomePage from './Components/Homepage/HomePage';
 import Navbar from './Components/Navbar/Navbar';
-import { Route } from 'react-router';
-import { Routes } from 'react-router';
+// import { Route } from 'react-router';
+// import { Routes } from 'react-router';
+import { Routes, Route } from 'react-router-dom';
+
 
 // import images
 
@@ -20,10 +22,10 @@ function App() {
         <Route  path="/" element={<HomePage />} ></Route>
         <Route path="/courses" element={<Courses />}></Route>
         <Route path='/about' element={<About />}></Route>
-        <Route path='*'>
+        {/* <Route path='*'>
           <Redirect to = "/"></Redirect>
 
-        </Route>
+        </Route> */}
 
       </Routes>
 
